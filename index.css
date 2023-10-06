@@ -5,6 +5,13 @@
 body{
     background-color: #000;;
 }
+.imgObjectfit{
+    object-fit: contain;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
 .nav{
     width: 100%;
     height: 60px;
@@ -48,9 +55,16 @@ body{
 .firstSection>div>div{
     width: 50%;
 }
+.textSection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
 .headingText{
+    font-family: 'Poppins', sans-serif;
     color: #D9D9D9;
-    font-family: Acumin Pro;
+    
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -58,14 +72,16 @@ body{
     letter-spacing: -3px;
 }
 .headingTextsmall{
+    font-family: 'Poppins', sans-serif;
     color: #FFF;
-    font-family: Acumin Pro;
+    
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 .readMoreBtn{
+    font-family: 'Poppins', sans-serif;
     display: flex;
     height: 50px;
     padding: 13px 44.34px 13px 45px;
@@ -75,4 +91,194 @@ body{
     border: 1px solid #853BCE;
     background: linear-gradient(87deg, #FD296E 0%, #FA4C3F 89.75%);
     box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.04);
+    transition: background-color 0.3s ease;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center; /* Horizontally center-align */
+    align-items: center; /* Vertically center-align */
+    width: 100%;
+    height: 100%;
+}
+.gif{
+    display: flex;
+    justify-content: center; /* Horizontally center-align */
+    align-items: center; /* Vertically center-align */
+    width: 383px;
+    height: 438px;
+    flex-shrink: 0;
+    border-radius: 191.5px 191.5px 41px 41px;
+}
+.gif img{
+   
+    object-fit: contain;
+}
+
+/* client section */
+#clientSection{
+   
+    width: 100%;
+    box-sizing: border-box;
+    box-sizing: border-box ;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    background: linear-gradient(90deg, #2A2B2C 0%, #09090B 100%);
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.clientsImgDiv{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 20px 7px;;
+    align-items: center;
+    justify-content: center;
+    gap: 49px;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+
+/* Services Section */
+
+/* About Us section */
+
+#aboutUs{
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+}
+.aboutUsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px;
+    border-radius: 42px;
+    border: 1px solid rgba(255, 255, 255, 0.71);
+    background: rgba(11, 11, 11, 0.40);
+    box-sizing: border-box;
+
+}
+
+/* Why us section */
+
+#whyUsSection{
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap:  60px; /* Gap between grid items */
+}
+
+.gridItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;/* Center items horizontally */
+}
+.fatureIconTextDiv{
+    width: 100%;
+    display: flex;
+    
+}
+.featureHeadDiv{
+    margin-bottom: 90px;
+}
+.fetaureHead{
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    
+}
+.fetaureDescriptions{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.icon{
+    max-width: 100%;
+    margin-right: 5px;
+}
+
+/* Vedio section */
+#youTube{
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+}
+.viedoDiv{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.video {
+    width: 100%;
+    height: 650px;
+}
+
+/* carousal */
+
+#carousalSection{
+    margin: 0;
+    padding: 70px;
+    box-sizing: border-box;
+}
+.carousalHead{
+    padding-bottom: 110px;
+    box-sizing: border-box;
+}
+
+.carousel {
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease;
+}
+
+.card {
+    width: 364px;
+    height: 280px;
+    border-radius: 21.855px;
+    border: 1px solid #696969;
+    padding: 60px 30px;
+    box-sizing: border-box;
+    background: #1D1D1D;
+    margin-right: 20px;
+    transform: scale(0.8);
+    opacity: 0.7;
+    transition: transform 0.5s, opacity 0.5s;
+    
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card.active {
+    transform: scale(1);
+    opacity: 1;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.carousel-controls{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#footer{
+    width: 100%;
+    padding: 70px;
+    border-top: 1px solid #FFF;
+    background: #000;
 }

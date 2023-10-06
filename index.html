@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" 
+    rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -28,24 +34,273 @@
         </div>
     </nav>
     <main class="" id="particles-js">
+        <!-- firstSetion -->
         <section id="firstSection" class="firstSection">
             <div class="firstSectionDiv">
-                <div>
-                    <h2 class="headingText">
-                        Announcing the launch of our new data center in Bawsher
-                    </h2>
-                    <h4 class="headingTextsmall">
-                        Experience Unparalleled data services with our state of the art facility
-                    </h4>
-                    <button class="readMoreBtn">Readmore</button>
+                <div class="textSection">
+                    <div class="textSection">
+                        <h2 class="headingText">
+                            Announcing the launch of our new data center in Bawsher
+                        </h2>
+                        <h4 class="headingTextsmall">
+                            Experience unparalleled data services with our state of the art facility
+                        </h4>
+                        <button class="readMoreBtn">Read more</button> 
+                    </div>
+
                 </div>
-                <div>
-                    <img src="./public/images/2df80154e4e27128eeb1a2d373255be8.gif" alt="">
+                <div class="imageContainer">
+                    <img class="gif" src="./public/images/2df80154e4e27128eeb1a2d373255be8.gif" alt="glob">
                 </div>
             </div>
 
         </section>
+
+        <!-- Client section -->
+        <section id="clientSection">
+
+            <div class="clientsImgDiv imgObjectfit">
+                <img src="./public/images/Dell_Logo 2.svg" alt="">
+                <img src="./public/images/Genesys_(company)-Logo.wine 2.svg" alt="">
+                <img src="./public/images/Mondodb.svg" alt="">
+                <img src="./public/images/MySQL.svg" alt="">
+                <img src="./public/images/oodoo.svg" alt="">
+                <img src="./public/images/ORACLE.svg" alt="">
+            </div>
+        </section>
+
+        <!-- Service Section -->
+        <section id="services">
+            <div >
+                <h5 style="background-color: aqua;">Services</h5>
+            </div>
+            
+        </section>
+        
+        <!-- About Us section -->
+        <section id="aboutUs">   
+            <div class="aboutUsContainer">   
+                <div class="textSection">   
+                    <h2 class="headingText">About us</h2>
+                    <p class="fetaureDescriptions">Data2cloud was founded in 2015 with head office in Oman serving local Cloud market needs as well as extending our business to regional and global customers. We are experts in providing managed hosting solutions through our Tier3+ data centers built with the latest technology, hardware and hosted in Muscat, Oman.</p>
+                </div>
+                <div class="gif">   
+                    <video width="640" height="360" controls>
+                        <source src="https://data2cloud.om/site-assets/videos/d2c-overview.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Us section -->
+        <section id="whyUsSection">
+            <div class="featureHeadDiv">
+                <h6 class="headingTextsmall">Why Us?</h6>
+                <h3 class="headingText">Faster Smarter</h3>
+            </div>
+
+            <div id="grid-container" class="grid-container">
+
+                <div class="gridItem">
+                    <div class="fatureIconTextDiv" >   
+                        <div class="icon">
+                            <img src="./public/icons/Ceritification Icon.svg" alt="">
+                        </div>
+                        <div>
+                            <h6 class="fetaureHead">Tire 3 Certified</h6>
+                        </div>
+                    </div>
+                   
+                    <div>
+                        <p class="fetaureDescriptions">Our Tier 3 certification demonstrates our unwavering commitment to providing you with the highest
+                            standards of data center reliability and redundancy.</p>
+                    </div>
+                </div>
+                <div class="gridItem" >
+                    <div class="fatureIconTextDiv" >   
+                        <div class="icon">
+                            <img src="./public/icons/Accreditation Icon.svg" alt="">
+                        </div>
+                        <div >
+                            <h6 class="fetaureHead">Accredited</h6>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <p class="fetaureDescriptions">We're accredited by MTCIT for secure government data hosting and have ISO 27001 certification, ensuring top-tier info security for your peace of mind</p>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="fatureIconTextDiv"  >
+                        <div class="icon">
+                            <img src="./public/icons/TimerIcon.svg" alt="">
+                        </div>
+                        <div >
+                            <h6 class="fetaureHead">Uptime</h6>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <p class="fetaureDescriptions">Our commitment to uninterrupted service is backed by our solid guarantee of 99.95% uptime</p>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div class="fatureIconTextDiv"  >
+                        <div class="icon">
+                            <img src="./public/icons/TimerIcon.svg" alt="">
+                        </div>
+                        <div>
+                            <h6 class="fetaureHead">24×7 monitoring</h6>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <p class="fetaureDescriptions">Our Tier 3 certification demonstrates our unwavering commitment to providing you with the highest standards of data center reliability and redundancy.</p>
+                    </div>
+                </div>
+                <div class="gridItem" >
+                    <div class="fatureIconTextDiv"  >
+                        <div class="icon">
+                            <img src="./public/icons/tdesign_secured.svg" alt="">
+                        </div>
+                        <div>
+                            <h6 class="fetaureHead">Secured</h6>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <p class="fetaureDescriptions">Your data's security is paramount to us. Our cloud infrastructure is fortified by a multi-layered security approach, encompassing multiple security parameters.</p>
+                    </div>
+                </div>
+                <div class="gridItem">
+                    <div
+                     class="fatureIconTextDiv"  >
+                        <div class="icon">
+                            <img src="./public/icons/solar_delivery-linear.svg" alt="">
+                        </div>
+                        <div>
+                            <h6 class="fetaureHead">Delivery</h6>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <p class="fetaureDescriptions">Our commitment to uninterrupted service is backed by our solid guarantee of 99.95% uptime</p>
+                    </div>
+                </div>
+
+        
+            </div>
+        </section>
+
+        <!-- Youtube Section -->
+        <section id="youTube">   
+            <div>
+                <h5 class="headingText">How data Cloud work?</h5>
+            </div>
+            <div class="viedoDiv">
+                <video  class="video" controls>
+                    <source src="https://data2cloud.om/site-assets/videos/d2c-overview.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <!-- carousal section -->
+        <section id="carousalSection">
+            <div class="carousalHead">  
+                <p class="fetaureDescriptions">Thousands of customers across the Sultanate trust us</p> 
+                <h2 class="headingText">What Our Customer Says</h2>
+            </div>
+            <div class="carousel">
+                <div class="card">
+                    <div class="flex">   
+                        <div>   
+                            <img src="./public/images/Customer1.png" alt="">
+                        </div>
+                        <div class="">   
+                            <h3>Elias Maalouf</h1>
+                            <h6>Technical Director - FRiENDi mobile</h6>
+                            <h6>Walmart</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <p>“FRiENDi mobile is the first mobile operator in Oman to have launched its customer service with multiple languages as a support for our diverse customer base. With the help of Data2Cloud, as partner with their continuous support we were able to bring our day-to-day operations to a full circle.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flex">   
+                        <div>   
+                            <img src="./public/images/Customer1.png" alt="">
+                        </div>
+                        <div class="">   
+                            <h3>Elias Maalouf</h1>
+                            <h6>Technical Director - FRiENDi mobile</h6>
+                            <h6>Walmart</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <p>“FRiENDi mobile is the first mobile operator in Oman to have launched its customer service with multiple languages as a support for our diverse customer base. With the help of Data2Cloud, as partner with their continuous support we were able to bring our day-to-day operations to a full circle.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flex">   
+                        <div>   
+                            <img src="./public/images/Customer1.png" alt="">
+                        </div>
+                        <div class="">   
+                            <h3>Elias Maalouf</h1>
+                            <h6>Technical Director - FRiENDi mobile</h6>
+                            <h6>Walmart</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <p>“FRiENDi mobile is the first mobile operator in Oman to have launched its customer service with multiple languages as a support for our diverse customer base. With the help of Data2Cloud, as partner with their continuous support we were able to bring our day-to-day operations to a full circle.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="flex">   
+                        <div>   
+                            <img src="./public/images/Customer1.png" alt="">
+                        </div>
+                        <div class="">   
+                            <h3>Elias Maalouf</h1>
+                            <h6>Technical Director - FRiENDi mobile</h6>
+                            <h6>Walmart</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <p>“FRiENDi mobile is the first mobile operator in Oman to have launched its customer service with multiple languages as a support for our diverse customer base. With the help of Data2Cloud, as partner with their continuous support we were able to bring our day-to-day operations to a full circle.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <div class="arrow left-arrow">  
+                    <img src="./public/icons/leftArrow.svg" alt="">
+                </div>
+                <div class="arrow right-arrow">
+                    <img src="./public/icons/rightArrow.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer id="footer">    
+            <div>   
+                <div>   
+                    <span>
+                        <img src="./public/images/cropped-logo-v2-removebg-preview 1.png" alt="">
+                    </span>
+                    <div></div>
+                    <div>   
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
 </body>
-
+<script src="./index.js"></script>
 </html>
