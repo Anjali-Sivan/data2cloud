@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" 
-    rel="stylesheet">
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
@@ -23,7 +22,7 @@
             <div>
                 <ul>
                     <li>Home</li>
-                    <li>Products</li>
+                    <li id="products"><a href="./product.html" class="link">Products</a></li>
                     <li>Sevices</li>
                     <li>About Us</li>
                     <li>Why us</li>
@@ -39,8 +38,8 @@
             <div class="firstSectionDiv">
                 <div class="textSection">
                     <div class="textSection">
-                        <h2 class="headingText displayInline">
-                            Announcing <span><h2 class="heading-text-secn-sec displayInline">the launch of our new data center in Bawsher</h2></span>
+                        <h2 class="heading-text ">
+                            Announcing the launch of our new data center in Bawsher
                         </h2>
                         <h4 class="headingTextsmall">
                             Experience unparalleled data services with our state of the art facility
@@ -79,94 +78,124 @@
             <div class="service-grid ">
                 <!-- Grid Card 1 -->
                 <div class="card-service gridBg1">
-                    <div class="iconSevice">
-                        <img src="./public/icons/GridIconfirst.svg" alt="">
+                    <div class="cardDetailsDiv">   
+                        <div class="iconSevice">
+                            <img src="./public/icons/GridIconfirst.svg" alt="">
+                        </div>
+                        <div class="headingService"><h6>Virtual machines</h6></div>
+                        <p>Incorporate rich user profiling, and facilitate more transactions.</p>
+                        
                     </div>
-                    <div class="headingService"><h6>Virtual machines</h6></div>
-                    <p>Incorporate rich user profiling, and facilitate more transactions.</p>
-                    <button class="buttonSevice">Learn More <span class="service-arrow">→</span></button>
+                   
+                        <button class="buttonSevice">Learn More <span class="service-arrow">→</span></button>
+                    
+                    
                 </div>
         
                 <!-- Grid Card 2 -->
                 <div class="card-service gridBg2">
-                    <div class="iconSevice">
-                        <img src="./public/icons/GridIconSec.svg" alt="">
+                    <div class="cardDetailsDiv">   
+                        <div class="iconSevice">
+                            <img src="./public/icons/GridIconSec.svg" alt="">
+                        </div>
+                        <div class="headingService"><h6>Collocation</h6></div>
+                        <p>Move away from managing your own dedicated data centers</p>
                     </div>
-                    <div class="headingService"><h6>Collocation</h6></div>
-                    <p>Move away from managing your own dedicated data centers</p>
+                    
                     <button class="buttonSevice">Learn More <span class="service-arrow">→</span></button>
                 </div>
         
                 <!-- Grid Card 3 -->
                 <div class="card-service gridBg3">
-                    <div class="iconSevice">
-                        <img src="./public/icons/GridIconthird.svg " alt="">
+                    <div class="cardDetailsDiv">   
+                        <div class="iconSevice">
+                            <img src="./public/icons/GridIconthird.svg " alt="">
+                        </div>
+                        <div class="headingService"><h6>Backup Services</h6></div>
+                        <p>Move away from managing your own dedicated data centers</p>
                     </div>
-                    <div class="headingService"><h6>Backup Services</h6></div>
-                    <p>Move away from managing your own dedicated data centers</p>
+                    
                     <button class="buttonSevice">Learn More <span class="service-arrow">→</span></button>
                 </div>
         
                 <!-- Repeat the above structure for the remaining cards -->
                 <div class="card-service geidBg4">
-                    <div class="iconSevice">
-                        <img src="./public/icons/GridIconFourth.svg" alt="">
+                    <div class="cardDetailsDiv">   
+                        <div class="iconSevice">
+                            <img src="./public/icons/GridIconFourth.svg" alt="">
+                        </div>
+                        <div class="headingService"><h6>Disaster Recovery</h6></div>
+                        <p>Incorporate rich user profiling, and
+                            facilitate more transactions.</p>
                     </div>
-                    <div class="headingService"><h6>Disaster Recovery</h6></div>
-                    <p>Incorporate rich user profiling, and
-                        facilitate more transactions.</p>
+
                     <button class="buttonSevice">Learn More <span class="service-arrow">→</span></button>
                 </div>
         
                 <!-- Grid Card 2 -->
                 <div class="card-service gridBg5">
-                    <div class="iconSevice">
-                        <img src="./public/icons/EmailRoundvector.svg" alt="">
+                    <div class="cardDetailsDiv">
+                        <div class="iconSevice">
+                            <img src="./public/icons/email.svg" alt="">
+                        </div>
+                        <div class="headingService"><h6>Email Services
+                        </h6></div>
+                        <p>Incorporate rich user profiling, and facilitate more transactions.</p>
                     </div>
-                    <div class="headingService"><h6>Email Services
-                    </h6></div>
-                    <p>Incorporate rich user profiling, and facilitate more transactions.</p>
+                    
                     <button class="buttonSevice">Learn More <span class="service-arrow">→</span></button>
                 </div>
         
                 <!-- Grid Card 3 -->
                 <div class="card-service gridBg6">
-                    <div class="iconSevice">
-                        <img src="./public/icons/GridIconCloudsvg.svg" alt="">
+                    <div class="cardDetailsDiv">   
+                        <div class="iconSevice">
+                            <img src="./public/icons/GridIconCloudsvg.svg" alt="">
+                        </div>
+                        <div class="headingService"><h6>Cloud Drive</h6></div>
+                        <p>Incorporate rich user profiling, and facilitate more transactions.</p>
                     </div>
-                    <div class="headingService"><h6>Cloud Drive</h6></div>
-                    <p>Incorporate rich user profiling, and facilitate more transactions.</p>
+                    
                     <button class="buttonSevice">Learn More <span class="service-arrow">→</span></button>
                 </div>
 
                 <!-- Repeat the above structure for the remaining cards -->
                 <div class="card-service gridBg7">
-                    <div class="iconSevice">
-                        <img src="./public/icons/GridIconContact.svg" alt="">
+                    <div class="cardDetailsDiv">   
+                        <div class="iconSevice">
+                            <img src="./public/icons/GridIconContact.svg" alt="">
+                        </div>
+                        <div class="headingService"><h6>Contact Center</h6></div>
+                        <p>Incorporate rich user profiling, and facilitate more transactions.</p>
                     </div>
-                    <div class="headingService"><h6>Contact Center</h6></div>
-                    <p>Incorporate rich user profiling, and facilitate more transactions.</p>
+                    
                     <button class="buttonSevice">Learn More <span class="service-arrow">→</span></button>
                 </div>
         
                 <!-- Grid Card 2 -->
                 <div class="card-service gridBg8">
-                    <div class="iconSevice">
-                        <img src="./public/icons/system-uicons_video.svg" alt="">
+                    <div class="cardDetailsDiv">   
+                        <div class="iconSevice">
+                            <img src="./public/icons/video svg.svg" alt="">
+                        </div>
+                        <div class="headingService"><h6>Video Conferencing</h6></div>
+                        <p>Incorporate rich user profiling, and facilitate more transactions.</p>
                     </div>
-                    <div class="headingService"><h6>Video Conferencing</h6></div>
-                    <p>Incorporate rich user profiling, and facilitate more transactions.</p>
+                    
                     <button class="buttonSevice">Learn More <span class="service-arrow">→</span></button>
                 </div>
         
                 <!-- Grid Card 3 -->
                 <div class="card-service gridBg9">
-                    <div class="iconSevice">
+                    <div class="cardDetailsDiv">   
+                        <div class="iconSevice">
                         <img src="./public/icons/GridIconCloudWhite.svg" alt="">
                     </div>
                     <div class="headingService"><h6>Cloud PBX</h6></div>
                     <p>Incorporate rich user profiling, and
                         facilitate more transactions.</p>
+                    </div>
+                    
                     <button class="buttonSevice">Learn More <span class="service-arrow">→</span></button>
                 </div>
             </div>
@@ -406,4 +435,5 @@
     </main>
 </body>
 <script src="./index.js"></script>
+
 </html>

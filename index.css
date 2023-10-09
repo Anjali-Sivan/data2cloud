@@ -2,12 +2,20 @@
     padding: 0;
     margin: 0;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     background-color: #000;;
 }
 .imgObjectfit{
     object-fit: contain;
 }
+.link {
+    text-decoration: none;
+    color: #fff;
+    /* Other styles you want to reset or apply */
+  }
 .displayInline{
     display: inline;
 }
@@ -64,16 +72,8 @@ body{
     align-items: flex-start;
     gap: 28px;
 }
-.headingText{
-    color: #D9D9D9;
-    font-family: Acumin Pro;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -3px;
-}
-.heading-text-secn-sec{
+
+.heading-text{
     color: #FFF;
     font-family: Acumin Pro;
     font-size: 48px;
@@ -160,7 +160,6 @@ body{
 /* Services Section */
 #services{
     width: 100%;
-    padding: 70px;
     box-sizing: border-box;
 }
 .serviceHead{
@@ -172,11 +171,17 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns */
     grid-template-rows: repeat(3, 1fr); /* Three rows */
+    
    
 }
 .card-service {
-    padding: 20px;
-    text-align: center;
+    padding: 57px 47px 47px 78px;
+    box-sizing: border-box;
+}
+.cardDetailsDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: left;  
 }
 .iconSevice{
     font-size: 24px;
@@ -186,18 +191,20 @@ body{
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
+    box-sizing: border-box;
 }
-.servicesText{
-
+.learn-more-btn-div{
+    display: flex;
+    align-items: end;
 }
 .buttonSevice {
-    background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     display: flex;
     align-items: center;
+    align-self: flex-end;
     justify-content: space-between;
 }
 .buttonSevice .service-arrow {

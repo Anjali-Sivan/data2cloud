@@ -1,0 +1,74 @@
+
+.text-center{
+    text-align: center;
+}
+.productHead{
+    padding: 119px 118px;
+    box-sizing: border-box;
+}
+.productHeading{
+    color: #D9D9D9;
+    font-family: Acumin Pro;
+    font-size: 42.182px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.section-conatiner{
+    display: inline-flex;
+    align-items: center;
+    gap: 170px;
+    padding: 100px;
+    box-sizing: border-box;
+}
+.text-small{
+    color: #FEFEFE;
+    font-family: Acumin Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.text-head{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-para{
+    color: rgba(195, 195, 195, 0.55);
+    text-align: justify;
+    font-family: Acumin Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.description-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 65px;
+}
+.show-more{
+    display: flex;
+    width: 299px;
+    height: 66px;
+    padding: 13px 44.34px 13px 45px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 27px;
+    border: 1px solid #853BCE;
+    background: linear-gradient(87deg, #FD296E 0%, #FA4C3F 89.75%);
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.04);
+}
+.features-flex{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 77px;
+}

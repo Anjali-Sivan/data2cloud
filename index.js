@@ -45,3 +45,8 @@ rightArrowText.addEventListener('click', () => {
 });
 
 updateCarousel();
+
+let product = document.getElementById("home")
+product.addEventListener(click,() =>{
+    
+})
