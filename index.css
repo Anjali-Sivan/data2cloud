@@ -223,15 +223,56 @@ body{
     box-sizing: border-box;
 }
 .aboutUsContainer{
+    width: 1303px;
+    height: 628px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 90px;
+    gap: 70px;
+    padding: 94px;
     border-radius: 42px;
     border: 1px solid rgba(255, 255, 255, 0.71);
     background: rgba(11, 11, 11, 0.40);
     box-sizing: border-box;
 
+}
+.gif-aboutUs{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-shrink: 0;
+    border-radius: 191.5px 191.5px 41px 41px;
+}
+.aboutus-heading{
+        color: #FFF;
+    text-align: center;
+    font-family: Acumin Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85px; 
+    letter-spacing: -2.55px;
+}
+.aboutus-text-secction{
+    
+    width: 483px;
+    height: 187px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+.about-us-text-container{
+    width: 483px;
+    height: 187px;
+}
+.aboutus-text{
+    color: rgba(255, 255, 255, 0.71);
+    text-align: justify;
+    font-family: Acumin Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%; /* 27.5px */
 }
 
 /* Why us section */
@@ -290,6 +331,10 @@ body{
     padding: 70px;
     box-sizing: border-box;
 }
+.youtubeSectionHeading{
+    padding-bottom: 67px;
+    box-sizing: border-box;
+}
 .viedoDiv{
     width: 100%;
     height: 100%;
@@ -307,11 +352,20 @@ body{
     padding: 70px;
     box-sizing: border-box;
 }
+
 .carousalHead{
     padding-bottom: 110px;
     box-sizing: border-box;
 }
-
+.carousal h2{
+    color: #FFF;
+    font-family: Acumin Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3px;
+}
 .carousel {
     display: flex;
     transform: translateX(0);
@@ -319,8 +373,12 @@ body{
 }
 
 .card {
-    width: 364px;
-    height: 280px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25.623px;
+    width: 453px;
+    height: 348px;
     border-radius: 21.855px;
     border: 1px solid #696969;
     padding: 60px 30px;
@@ -336,7 +394,14 @@ body{
 .card:last-child {
     margin-right: 0;
 }
-
+.cardText{
+    color: #FFF;
+    font-family: Acumin Pro;
+    font-size: 12.058px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .card.active {
     transform: scale(1);
     opacity: 1;
@@ -346,8 +411,42 @@ body{
     display: flex;
     align-items: center;
     justify-content: end;
+    padding: 60px 30px;
+    box-sizing: border-box;
+}
+.customerDetailsHead{
+    display: flex;
+    gap: 13px;
+}
+.customer-details {
+    display: flex;
+    flex-direction: column;
+    gap: 6.7px;
+}
+.customer-name{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 9.903px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 15.562px
+}
+.customer-desig-company{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 9.043px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15.562px;
+}
+.imageFit{
+    object-fit: contain;
+}
+.arrowMargin{
+    margin-right: 30px;
 }
 
+/* Footer section */
 #footer{
     width: 100%;
     padding: 70px;
