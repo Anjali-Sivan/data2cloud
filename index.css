@@ -142,7 +142,79 @@ body{
 }
 
 /* Services Section */
+#services{
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+}
+.serviceHead{
+    padding: 70px;
+    box-sizing: border-box;
+}
 
+.service-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    grid-template-rows: repeat(3, 1fr); /* Three rows */
+   
+}
+.card-service {
+    padding: 20px;
+    text-align: center;
+}
+.iconSevice{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.headingService {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.servicesText{
+
+}
+.buttonSevice {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttonSevice .service-arrow {
+    margin-left: 10px;
+}
+.gridBg1{
+    background: linear-gradient(180deg, #181622 0%, #0F082E 100%);
+}
+.gridBg2{
+    background: linear-gradient(180deg, #FE2E69 0%, #FB434C 100%);
+
+}
+.gridBg3{
+    background: #1E1C1C;
+}
+.geidBg4{
+    background: #535260;
+}
+.gridBg5{
+    background: #19253F;
+}
+.gridBg6{
+    background: #13121C;
+}
+.gridBg7{
+    background: #2F2D39;
+}
+.gridBg8{
+    background: #020202;
+}
+.gridBg9{
+    background: #D9D9D9;
+}
 /* About Us section */
 
 #aboutUs{
@@ -279,11 +351,36 @@ body{
 #footer{
     width: 100%;
     padding: 70px;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
     border-top: 1px solid #FFF;
     background: #000;
     box-sizing: border-box;
 }
 .footerDiv{
+    
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+.footerLogoText{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.footerDersciption{
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.06px;
+}
+.footerIconsDiv{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
