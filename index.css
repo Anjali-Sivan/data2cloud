@@ -75,7 +75,7 @@ body{
 
 .heading-text{
     color: #FFF;
-    font-family: Acumin Pro;
+    font-family: sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -84,18 +84,18 @@ body{
 }
 .headingTextsmall{
     color: #FFF;
-    font-family: Acumin Pro;
+    font-family: sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 .readMoreBtn{
-    font-family: 'Poppins', sans-serif;
+    font-family:  sans-serif;
     display: flex;
     height: 50px;
     color: #FFF;
-    font-family: Acumin Pro;
+    font-family: sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -193,6 +193,24 @@ body{
     margin-bottom: 10px;
     box-sizing: border-box;
 }
+.card-text-head{
+    color: #F1F5F9;
+    font-family: sans-serif;
+    font-size: 14.151px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21.226px; /* 150% */
+    letter-spacing: -0.241px;
+}
+.card-text-para{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 12.578px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.867px; /* 150% */
+    letter-spacing: -0.126px;
+}
 .learn-more-btn-div{
     display: flex;
     align-items: end;
@@ -268,7 +286,7 @@ body{
 .aboutus-heading{
         color: #FFF;
     text-align: center;
-    font-family: Acumin Pro;
+    font-family: sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -291,7 +309,7 @@ body{
 .aboutus-text{
     color: rgba(255, 255, 255, 0.71);
     text-align: justify;
-    font-family: Acumin Pro;
+    font-family: sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -309,7 +327,7 @@ body{
 .whyus-heading{
     color: #FFF;
     text-align: left;
-    font-family: Acumin Pro;
+    font-family: sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -337,7 +355,7 @@ body{
     margin-bottom: 90px;
 }
 .fetaureHead{
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -347,7 +365,7 @@ body{
 }
 .fetaureDescriptions{
     color: #FFF;
-    font-family: Acumin Pro;
+    font-family: sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -382,7 +400,7 @@ body{
 .youtubeSectionHeadingText{
     color: #FFF;
     text-align: left;
-    font-family: Acumin Pro;
+    font-family: sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -410,7 +428,7 @@ body{
 #carousalHeadingDiv >p{
     color: #FFF;
     text-align: left;
-    font-family: Acumin Pro;
+    font-family: sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -419,7 +437,7 @@ body{
 }
 #carousalHeadingDiv >h2{
     color: #FFF;
-    font-family: Acumin Pro;
+    font-family: sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -456,7 +474,7 @@ body{
 }
 .cardText{
     color: #FFF;
-    font-family: Acumin Pro;
+    font-family: sans-serif;
     font-size: 12.058px;
     font-style: normal;
     font-weight: 400;
@@ -485,7 +503,7 @@ body{
 }
 .customer-name{
     color: #FFF;
-    font-family: Inter;
+    font-family: sans-serif;
     font-size: 9.903px;
     font-style: normal;
     font-weight: 800;
@@ -493,7 +511,7 @@ body{
 }
 .customer-desig-company{
     color: #FFF;
-    font-family: Inter;
+    font-family: sans-serif;
     font-size: 9.043px;
     font-style: normal;
     font-weight: 600;
@@ -532,7 +550,7 @@ body{
 .footerDersciption{
     color: #FFF;
     text-align: justify;
-    font-family: Inter;
+    font-family: sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
