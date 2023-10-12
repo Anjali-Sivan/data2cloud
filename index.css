@@ -4,10 +4,24 @@
 }
 html {
     scroll-behavior: smooth;
-  }
-body{
-    background-color: #000;;
 }
+body{
+    background-color: #000; 
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+#particles-js{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+    z-index: -1; 
+}
+
 .imgObjectfit{
     object-fit: contain;
 }
@@ -163,10 +177,22 @@ body{
     box-sizing: border-box;
 }
 .serviceHead{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
     padding: 70px;
     box-sizing: border-box;
 }
-
+.service-head-text{
+    color: #FFF;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49.557px; /* 103.245% */
+    letter-spacing: -3px;
+}
 .service-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns */
@@ -175,6 +201,8 @@ body{
    
 }
 .card-service {
+    display: flex ;
+    flex-direction: column;
     padding: 57px 47px 47px 78px;
     box-sizing: border-box;
 }
@@ -226,6 +254,13 @@ body{
     justify-content: space-between;
 }
 .buttonSevice .service-arrow {
+    color: #FF1400;
+    text-align: right;
+    font-family: Inter;
+    font-size: 11.006px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17.295px; 
     margin-left: 10px;
 }
 .gridBg1{
@@ -255,6 +290,48 @@ body{
 }
 .gridBg9{
     background: #D9D9D9;
+}
+
+.lastgrid-text{
+    color: #000;
+    font-family: Inter;
+    font-size: 14.151px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21.226px; /* 150% */
+    letter-spacing: -0.241px;
+}
+
+.lastgrid-text-para{
+    color: #000;
+    font-family: Inter;
+    font-size: 12.578px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.867px; /* 150% */
+    letter-spacing: -0.126px;
+
+}
+.last-grid-learnmore-btn{
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    justify-content: space-between;
+
+}
+.last-grid-learnmore-btn .service-arrow{
+    color: #FF1400;
+    text-align: right;
+    font-family: Inter;
+    font-size: 11.006px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17.295px; 
+    margin-left: 10px;
 }
 /* About Us section */
 

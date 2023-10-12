@@ -24,7 +24,6 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    padding-bottom: 64px;
 }
 .pbottom{
     padding-bottom: 64px;
@@ -200,7 +199,7 @@
 .all-sections{
     display: flex;
     flex-direction: column;
-    padding: 64px 71px 270px 72px;
+    padding: 64px 71px 193px 72px;
     gap: 64px;
     box-sizing: border-box;
 }
@@ -220,8 +219,6 @@
     display: flex;
     gap: 81px;
     align-items: center;
-    padding-top: 64px;
-    padding-bottom: 173px;
     box-sizing: border-box;
 }
 .image-section {
@@ -247,8 +244,6 @@
 .content-section-container-row-reverse{
     display: flex;
     gap: 81px;
-    padding-top: 64px;
-    padding-bottom: 173px;
     align-items: center;
     flex-direction: row-reverse; 
     box-sizing: border-box;
@@ -347,7 +342,6 @@
     display: flex;
     gap: 20px; /* Adjust the gap for small screens */
     align-items: center;
-    flex-direction: column;
     box-sizing: border-box;
 }
 
