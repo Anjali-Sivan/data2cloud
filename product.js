@@ -168,4 +168,11 @@ console.log(showlessBtnFirst)
     showlessBtnDivEight.classList.add('displaynone')
  })
  
-  
+ document.addEventListener("DOMContentLoaded", function() {
+   const hamburger = document.querySelector(".hamburger");
+   const navList = document.querySelector(".navItems ul");
+
+   hamburger.addEventListener("click", function() {
+       navList.classList.toggle("active");
+   });
+});

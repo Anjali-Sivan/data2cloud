@@ -5,7 +5,7 @@ let currentIndex = 0;
 function updateCarousel() {
     const offset = -currentIndex * 10; // Adjust this value based on your card width
 
-    carousel.style.transform = `translateX(${offset}px)`;
+    // carousel.style.transform = `translateX(${offset}px)`;
 
     cards.forEach((card, index) => {
         if (index === currentIndex) {
@@ -46,5 +46,12 @@ rightArrowText.addEventListener('click', () => {
 
 updateCarousel();
 
-
+document.addEventListener("DOMContentLoaded", function() {
+    const hamburger = document.querySelector(".hamburger");
+    const navList = document.querySelector(".navItems ul");
+ 
+    hamburger.addEventListener("click", function() {
+        navList.classList.toggle("active");
+    });
+ });
 
