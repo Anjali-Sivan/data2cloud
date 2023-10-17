@@ -31,7 +31,17 @@ function slidePrev() {
         updateCarousel();
     }
 }
+function removeActiveClassOnSmallScreen() {
+    
+    const screenWidth = window.innerWidth;
+    const smallScreenThreshold = 666; // Adjust this threshold as needed
 
+    if (screenWidth <= smallScreenThreshold) {
+        cards.forEach((card) => {
+            card.classList.remove('active');
+        });
+    }
+}
 // Add click event listeners to arrow text elements
 const leftArrowText = document.querySelector('.left-arrow');
 const rightArrowText = document.querySelector('.right-arrow');
@@ -44,9 +54,13 @@ rightArrowText.addEventListener('click', () => {
     slideNext();
 });
 
+window.addEventListener('resize', removeActiveClassOnSmallScreen);
 updateCarousel();
 
+removeActiveClassOnSmallScreen()
+
 document.addEventListener("DOMContentLoaded", function() {
+ 
     const hamburger = document.querySelector(".hamburger");
     const navList = document.querySelector(".navItems ul");
  

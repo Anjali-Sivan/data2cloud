@@ -3,18 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html{
+    height: 100%;
+    width: 100%;
+}
 body{
     width: 100%;
     margin: 0;
     background-color: #000;
+    opacity: 1;
     overflow-x: hidden;
 }
 .body-container {
     width: 100%;
     height: 100%;
 }
-.min-conatiner{
+
+.main-conatiner{
     width: 100%;
     height: 100%;
 }
@@ -23,23 +28,23 @@ body{
     height: 100%;
 }
 #particles-js{
-    
+    height: 4900px;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh; /* Adjust the height as needed */
-    z-index: -1; 
+    z-index: -1;
 }
 
 .imgObjectfit{
-    
+    width: 100%;
     object-fit: contain;
 }
 .wid-100{
     width: 100%;
 }
 .link {
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #fff;
     /* Other styles you want to reset or apply */
@@ -112,27 +117,26 @@ body{
 
 .heading-text{
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: -3px;
+    
 }
 .headingTextsmall{
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 .readMoreBtn{
-    font-family:  sans-serif;
     display: flex;
     height: 50px;
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -148,19 +152,13 @@ body{
 }
 
 .imageContainer {
-    display: flex;
-    justify-content: center; /* Horizontally center-align */
-    align-items: center; /* Vertically center-align */
+    text-align: center;
     width: 100%;
     height: 100%;
 }
 .gif{
-    display: flex;
-    justify-content: center; /* Horizontally center-align */
-    align-items: center; /* Vertically center-align */
     width: 383px;
     height: 438px;
-    flex-shrink: 0;
     border-radius: 191.5px 191.5px 41px 41px;
 }
 .gif img{
@@ -180,14 +178,12 @@ body{
 }
 
 .clientsImgDiv{
-    width: 80%;
-    margin: auto;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 7px;;
     gap: 49px;
-    object-fit: contain;
     box-sizing: border-box;
 }
 
@@ -206,7 +202,7 @@ body{
 .service-head-text{
     color: #FFF;
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -243,7 +239,7 @@ body{
 }
 .card-text-head{
     color: #F1F5F9;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14.151px;
     font-style: normal;
     font-weight: 700;
@@ -252,7 +248,7 @@ body{
 }
 .card-text-para{
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12.578px;
     font-style: normal;
     font-weight: 400;
@@ -276,7 +272,7 @@ body{
 .buttonSevice .service-arrow {
     color: #FF1400;
     text-align: right;
-    font-family: Inter;
+    font-family: 'Roboto', sans-serif;
     font-size: 11.006px;
     font-style: normal;
     font-weight: 500;
@@ -314,7 +310,7 @@ body{
 
 .lastgrid-text{
     color: #000;
-    font-family: Inter;
+    font-family: 'Roboto', sans-serif;
     font-size: 14.151px;
     font-style: normal;
     font-weight: 700;
@@ -324,7 +320,7 @@ body{
 
 .lastgrid-text-para{
     color: #000;
-    font-family: Inter;
+    font-family: 'Roboto', sans-serif;
     font-size: 12.578px;
     font-style: normal;
     font-weight: 400;
@@ -346,7 +342,7 @@ body{
 .last-grid-learnmore-btn .service-arrow{
     color: #FF1400;
     text-align: right;
-    font-family: Inter;
+    font-family: 'Roboto', sans-serif;
     font-size: 11.006px;
     font-style: normal;
     font-weight: 500;
@@ -390,7 +386,7 @@ body{
     .aboutus-heading{
             color: #FFF;
         text-align: center;
-        font-family: sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 48px;
         font-style: normal;
         font-weight: 700;
@@ -409,7 +405,7 @@ body{
     .aboutus-text{
         color: rgba(255, 255, 255, 0.71);
         text-align: justify;
-        font-family: sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -424,16 +420,14 @@ body{
     padding: 70px;
     box-sizing: border-box;
 }
-#whyUsSection{
-    padding: 20px;
-}
+
 .grid-container{
 
 }
 .whyus-heading{
     color: #FFF;
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -460,7 +454,7 @@ body{
     margin-bottom: 90px;
 }
 .fetaureHead{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -470,7 +464,7 @@ body{
 }
 .fetaureDescriptions{
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -505,7 +499,7 @@ body{
 .youtubeSectionHeadingText{
     color: #FFF;
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -533,7 +527,7 @@ body{
 .carousal-heading-samll{
     color: #FFF;
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -542,7 +536,7 @@ body{
 }
 .carousal-headding{
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -552,6 +546,7 @@ body{
 
 .carousel {
     display: flex;
+    justify-content: center;
 }
 
 .card {
@@ -578,7 +573,7 @@ body{
 }
 .cardText{
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12.058px;
     font-style: normal;
     font-weight: 400;
@@ -607,7 +602,7 @@ body{
 }
 .customer-name{
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 9.903px;
     font-style: normal;
     font-weight: 800;
@@ -615,7 +610,7 @@ body{
 }
 .customer-desig-company{
     color: #FFF;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 9.043px;
     font-style: normal;
     font-weight: 600;
@@ -654,7 +649,7 @@ body{
 .footerDersciption{
     color: #FFF;
     text-align: justify;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -672,10 +667,7 @@ body{
 
 /* for nav bar */
 @media (min-width:0px) and (max-width:900px) {
-    .nav{
-        position: fixed;
-        overflow-x: hidden;
-    }
+    
     .navItems ul {
         display: none;
         flex-direction: column;
@@ -685,7 +677,9 @@ body{
         width: 100%;
         background-color: #000;
     }
-
+    /* #particles-js{
+        height: 7456px;
+    } */
     .navItems ul.active {
         display: flex;
         align-items: center;
@@ -725,7 +719,7 @@ body{
 }
 
 /* for small screen */
-@media (min-width:0px) and (max-width:600px){
+@media (min-width:0px) and (max-width:575px){
     body{
         width: 100%;
     }
@@ -733,10 +727,10 @@ body{
         width: 100%;
         height: 100%;
     }
-    #particle-js{
+    /* #particle-js{
         width: 100%;
         height: 100%;
-    }
+    } */
    
     .firstSection{
         padding: 20px;
@@ -749,13 +743,17 @@ body{
         order: 1;
     }
     .gif{
+        width: 100%;
         order: 2;
+    }
+    .imageContainer{
+
+        width: 100%;
+        height: 100%;
     }
     .clientsImgDiv {
         width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Two columns */
-        gap: 18px;
+        
     }
     .heading-text{
         font-size: 20px;
@@ -767,12 +765,10 @@ body{
         font-size: 12px;
     }
     .clientsImgDiv {
-        display: grid;
-        grid-template-columns: 1fr;
+        gap: 10px;
     }
-    .clientsImgDiv div{
-        width: 50%;
-        margin: auto;
+    .clientsImgDiv {
+        overflow-x: scroll; 
     }
     .serviceHead{
         padding: 20px;
@@ -784,9 +780,14 @@ body{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+        padding: 20px;
     }
     #aboutUs{
         padding: 20px;
+    }
+    .featureHeadDiv{
+        margin-bottom: 35px;
     }
     .aboutus-heading{
         font-size: 20px;
@@ -819,8 +820,8 @@ body{
     }
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(1, 1fr); /* Three columns */
-        gap:  30px; /* Gap between grid items */
+        grid-template-columns: repeat(1, 1fr); 
+        gap:  30px; 
     }
     #youTube{
         padding: 20px;
@@ -838,11 +839,149 @@ body{
         padding: 20px;
     }
     .carousel{
-        display: grid;
-        grid-template-columns: 1fr;
+            display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
     }
     .card{
-        width: 246px;
+        width: 100%;
+        height: 100%;
+    }
+    .carousal-headding{
+        font-size: 20px;
+    }
+   #customerDetails{
+    text-align: left;
+   }
+    .card:hover {
+        transform: scale(1);
+        opacity: 1;
+        transition: transform 0.5s, opacity 0.5s;
+    }
+    .carousel-controls{
+        display: none;
+    }
+    #footer{
+        padding: 20px;
+    }
+    .footerDiv{
+        display: grid;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    body{
+        max-width: 100%;
+    }
+    /* .main{
+        padding-top: 80px
+    } */
+    .firstSection{
+        padding: 20px;
+    }
+    .firstSectionDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .textSection{
+        order: 1;
+    }
+    .gif{
+        width: 100%;
+        order: 2;
+    }
+    .imageContainer{
+
+        width: 100%;
+        height: 100%;
+    }
+    .clientsImgDiv {
+        width: 100%;
+        
+    }
+    .clientsImgDiv {
+        gap: 10px;
+    }
+    .clientsImgDiv {
+        overflow-x: scroll; 
+    }
+    .serviceHead{
+        padding: 20px;
+    }
+    .service-head-text{
+        font-size: 20px;
+    }
+    .service-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+    #aboutUs{
+        padding: 20px;
+    }
+    .headingTextsmall{
+        font-size: 12px;
+    }
+    .whyus-heading{
+        font-size: 20px;
+    }
+    .featureHeadDiv{
+        margin-bottom: 35px;
+    }
+    .aboutus-heading{
+        font-size: 20px;
+    }
+    .aboutus-text{
+        font-size: 15px;
+        color: #FFF;
+    }
+    .aboutUsContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 20px;
+        border-radius: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.71);
+        background: rgba(11, 11, 11, 0.40);
+        box-sizing: border-box;
+    }
+    .gif-aboutUs{
+        width: 100%;
+    }
+    .gif-aboutUs-vedio-container video{
+        width: 100%; 
+       
+    }
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+    #youTube{
+        padding: 20px;
+    }
+    #carousalSection{
+        padding: 20px;
+    }
+    .carousalHead{
+        padding-bottom: 25px;
+    }
+    .card{
+        height: 100%;
+             margin-right: 10px;
+    }
+    .carousel-controls{
+        padding: 20px;
+    }
+    .carousal-heading-samll{
+        font-size: 12px;
     }
     .carousal-headding{
         font-size: 20px;
@@ -853,5 +992,165 @@ body{
     .footerDiv{
         display: grid;
         gap: 20px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    body{
+        max-width: 100%;
+    }
+    /* .main{
+        padding-top: 80px
+    } */
+    .firstSection{
+        padding: 20px;
+    }
+    .firstSectionDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .textSection{
+        order: 1;
+    }
+    .gif{
+        width: 100%;
+        order: 2;
+    }
+    .imageContainer{
+
+        width: 100%;
+        height: 100%;
+    }
+    .clientsImgDiv {
+        width: 100%;
+        
+    }
+    .clientsImgDiv {
+        gap: 10px;
+    }
+    .clientsImgDiv {
+        overflow-x: scroll; 
+    }
+    .serviceHead{
+        padding: 20px;
+    }
+    .service-head-text{
+        font-size: 20px;
+    }
+    .service-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+    #aboutUs{
+        padding: 20px;
+    }
+    .headingTextsmall{
+        font-size: 12px;
+    }
+    .whyus-heading{
+        font-size: 20px;
+    }
+    .featureHeadDiv{
+        margin-bottom: 35px;
+    }
+    .aboutus-heading{
+        font-size: 20px;
+    }
+    .aboutus-text{
+        font-size: 15px;
+        color: #FFF;
+    }
+    .aboutUsContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 20px;
+        border-radius: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.71);
+        background: rgba(11, 11, 11, 0.40);
+        box-sizing: border-box;
+    }
+    .gif-aboutUs{
+        width: 100%;
+    }
+    .gif-aboutUs-vedio-container video{
+        width: 100%; 
+       
+    }
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+    #youTube{
+        padding: 20px;
+    }
+    #carousalSection{
+        padding: 20px;
+    }
+    .carousalHead{
+        padding-bottom: 25px;
+    }
+    .card{
+        height: 100%;
+             margin-right: 10px;
+    }
+    .carousel-controls{
+        padding: 20px;
+    }
+    .carousal-heading-samll{
+        font-size: 12px;
+    }
+    .carousal-headding{
+        font-size: 20px;
+    }
+    #footer{
+        padding: 20px;
+    }
+    .footerDiv{
+       display: grid    ;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 766px){
+    #carousalSection{
+        padding: 20px;
+    }
+    .carousel{
+            display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    .carousal-headding{
+        font-size: 20px;
+    }
+   #customerDetails{
+    text-align: left;
+   }
+    .card:hover {
+        transform: scale(1);
+        opacity: 1;
+        transition: transform 0.5s, opacity 0.5s;
+    }
+    .carousel-controls{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .aboutUsContainer{
+        display: flex;
+        flex-direction: column;
     }
 }
