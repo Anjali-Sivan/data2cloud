@@ -3,16 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
-html{
-    height: 100%;
+html {
     width: 100%;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  
+    background: transparent;  
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }
 body{
     width: 100%;
     margin: 0;
     background-color: #000;
-    opacity: 1;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 .body-container {
     width: 100%;
@@ -23,19 +33,33 @@ body{
     width: 100%;
     height: 100%;
 }
+.wid-25{
+    width: 20%;
+}
 .main{
     width: 100%;
     height: 100%;
 }
 #particles-js{
-    height: 4900px;
+   height: 99%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
 }
+.calldiv{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 70%;
+    left: 90%;
 
+}
+.calldiv img{
+    width: 100%;
+    height: 100%;
+}
 .imgObjectfit{
     width: 100%;
     object-fit: contain;
@@ -273,7 +297,7 @@ body{
     color: #FF1400;
     text-align: right;
     font-family: 'Roboto', sans-serif;
-    font-size: 11.006px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 17.295px; 
@@ -343,7 +367,7 @@ body{
     color: #FF1400;
     text-align: right;
     font-family: 'Roboto', sans-serif;
-    font-size: 11.006px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 17.295px; 
@@ -494,7 +518,7 @@ body{
 }
 .video {
     width: 100%;
-    height: 650px;
+    height: 522px;
 }
 .youtubeSectionHeadingText{
     color: #FFF;
@@ -578,6 +602,7 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    letter-spacing: 0.5px;
 }
 .card.active {
     transform: scale(1);
