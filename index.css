@@ -301,6 +301,12 @@ body{
     cursor: pointer;
     
 }
+.service-link-lastgrid{
+    text-decoration: none;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
 .buttonSevice .service-arrow {
     color: #FF1400;
     text-align: right;
@@ -817,8 +823,16 @@ body{
     .serviceHead{
         padding: 20px;
     }
+    .carousalHead{
+        padding-bottom: 25px;
+    }
     .service-head-text{
         font-size: 20px;
+    }.card-service {
+        display: flex ;
+        flex-direction: column;
+        padding: 20px 20px 20px 35px;
+        box-sizing: border-box;
     }
     .service-grid{
         display: grid;
@@ -827,6 +841,10 @@ body{
         gap: 10px;
         padding: 20px;
     }
+    #whyUsSection{
+        padding: 20px;
+    }
+    
     #aboutUs{
         padding: 20px;
     }
@@ -915,6 +933,7 @@ body{
     }
 }
 
+/* medium-screen */
 @media screen and (min-width: 576px) and (max-width: 768px) {
     body{
         max-width: 100%;
@@ -948,11 +967,18 @@ body{
     .clientsImgDiv {
         gap: 10px;
     }
-    .clientsImgDiv {
-        overflow-x: scroll; 
+    
+    .card-service {
+        display: flex ;
+        flex-direction: column;
+        padding: 20px 20px 20px 35px;
+        box-sizing: border-box;
+    }
+    .wid-25{
+        width: 14%;
     }
     .serviceHead{
-        padding: 20px;
+        padding: 30px 20px 20px 20px;
     }
     .service-head-text{
         font-size: 20px;
@@ -964,6 +990,10 @@ body{
         gap: 10px;
         padding: 20px;
     }
+    #whyUsSection{
+        padding: 20px;
+    }
+    
     #aboutUs{
         padding: 20px;
     }
@@ -1038,6 +1068,8 @@ body{
         gap: 20px;
     }
 }
+
+/* medium screen */
 @media screen and (min-width: 769px) and (max-width: 992px){
     body{
         max-width: 100%;
@@ -1071,11 +1103,9 @@ body{
     .clientsImgDiv {
         gap: 10px;
     }
-    .clientsImgDiv {
-        overflow-x: scroll; 
-    }
+    
     .serviceHead{
-        padding: 20px;
+        padding: 30px 20px 20px 20px;
     }
     .service-head-text{
         font-size: 20px;
@@ -1092,6 +1122,9 @@ body{
     }
     .headingTextsmall{
         font-size: 12px;
+    }
+    #whyUsSection{
+        padding: 20px;
     }
     .whyus-heading{
         font-size: 20px;
@@ -1124,6 +1157,15 @@ body{
     .gif-aboutUs-vedio-container video{
         width: 100%; 
        
+    }
+    .card-service {
+        display: flex ;
+        flex-direction: column;
+        padding: 20px 20px 20px 35px;
+        box-sizing: border-box;
+    }
+    .wid-25{
+        width: 14%;
     }
     .service-grid {
         display: grid;
@@ -1161,7 +1203,7 @@ body{
         gap: 20px;
     }
 }
-
+/* forcarousal */
 @media screen and (min-width: 575px) and (max-width: 766px){
     #carousalSection{
         padding: 20px;
