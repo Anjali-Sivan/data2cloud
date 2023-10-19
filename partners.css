@@ -213,7 +213,9 @@
 .padding-zero{
     padding: 0px;
 }
-
+.text-left{
+    text-align: left;
+}
 
 /* mediaquries */
 
