@@ -294,6 +294,13 @@ body{
     align-self: flex-end;
     justify-content: space-between;
 }
+.service-link{
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
 .buttonSevice .service-arrow {
     color: #FF1400;
     text-align: right;
@@ -302,6 +309,15 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 17.295px; 
+    margin-left: 10px;
+}
+.buttonSevice .service-arrow-secgrid{
+    color: #7C1911;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
     margin-left: 10px;
 }
 .gridBg1{
