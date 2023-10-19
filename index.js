@@ -34,7 +34,7 @@ function slidePrev() {
 function removeActiveClassOnSmallScreen() {
     
     const screenWidth = window.innerWidth;
-    const smallScreenThreshold = 666; // Adjust this threshold as needed
+    const smallScreenThreshold = 666; 
 
     if (screenWidth <= smallScreenThreshold) {
         cards.forEach((card) => {
@@ -42,7 +42,7 @@ function removeActiveClassOnSmallScreen() {
         });
     }
 }
-// Add click event listeners to arrow text elements
+
 const leftArrowText = document.querySelector('.left-arrow');
 const rightArrowText = document.querySelector('.right-arrow');
 
