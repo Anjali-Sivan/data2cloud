@@ -18,6 +18,9 @@ const showmoreSixthBtn = document.getElementById('section_six_showmore_btn')
 const showmoreSeventhBtn = document.getElementById('section_seven_showmore_btn')
 const showmoreEighthBtn = document.getElementById('section_eight_showmore_btn')
 const showmoreNinethBtn = document.getElementById('section_nine_showmore_btn')
+const showmoreTenthBtn = document.getElementById('section_ten_showmore_btn')
+const showmoreElevenBtn = document.getElementById('section_eleven_showmore_btn')
+const showmoreTwelveBtn = document.getElementById('section_twelve_showmore_btn')
 
 const showMoreBtnDivOne = document.getElementById('section_one_showmorebtn_container')
 const showMoreBtnDivSec = document.getElementById('section_two_showmorebtn_container')
@@ -28,6 +31,9 @@ const showMoreBtnDivSix = document.getElementById('section_six_showmorebtn_conta
 const showMoreBtnDivSeven = document.getElementById('section_seven_showmorebtn_container')
 const showMoreBtnDivEight = document.getElementById('section_eight_showmorebtn_container')
 const showMoreBtnDivNine = document.getElementById('section_nine_showmorebtn_container')
+const showMoreBtnDivTen = document.getElementById('section_ten_showmorebtn_container')
+const showMoreBtnDivEleven = document.getElementById('section_eleven_showmorebtn_container')
+const showMoreBtnDivTweleve = document.getElementById('section_tweleve_showmorebtn_container')
 
 const featuresSectionOne = document.getElementById("section_one_feature_conatiner")
 const featuresSectionTwo = document.getElementById("section_two_feature_conatiner")
@@ -38,6 +44,9 @@ const featuresSectionSix = document.getElementById("section_six_feature_conatine
 const featuresSectionSeven = document.getElementById("section_seven_feature_conatiner")
 const featuresSectionEight = document.getElementById("section_eight_feature_conatiner")
 const featuresSectionNine = document.getElementById("section_nine_feature_conatiner")
+const featuresSectionTen = document.getElementById("section_ten_feature_conatiner")
+const featuresSectionEleven = document.getElementById("section_eleven_feature_conatiner")
+const featuresSectionTweleve = document.getElementById("section_tweleve_feature_conatiner")
 
 
 const showlessBtnFirst = document.getElementById('section_one_showless_btn')
@@ -49,6 +58,9 @@ const showlessBtnSix = document.getElementById('section_six_showless_btn')
 const showlessBtnSeven = document.getElementById('section_seven_showless_btn')
 const showlessBtnEight = document.getElementById('section_eight_showless_btn')
 const showlessBtnNine = document.getElementById('section_nine_showless_btn')
+const showlessBtnTen = document.getElementById('section_ten_showless_btn')
+const showlessBtnEleven = document.getElementById('section_eleven_showless_btn')
+const showlessBtnTweleve = document.getElementById('section_tweleve_showless_btn')
 
 const showlessBtnDivOne = document.getElementById('section_one_showless_btn_container')
 const showlessBtnDivTwo = document.getElementById('section_two_showless_btn_container')
@@ -59,6 +71,10 @@ const showlessBtnDivSix = document.getElementById('section_six_showless_btn_cont
 const showlessBtnDivSeven = document.getElementById('section_seven_showless_btn_container')
 const showlessBtnDivEight = document.getElementById('section_eight_showless_btn_container')
 const showlessBtnDivNine = document.getElementById('section_nine_showless_btn_container')
+const showlessBtnDivTen = document.getElementById('section_ten_showless_btn_container')
+const showlessBtnDivEleven = document.getElementById('section_eleven_showless_btn_container')
+const showlessBtnDivTweleve = document.getElementById('section_tweleve_showless_btn_container')
+
 
 
  showmoreFirstBtn.addEventListener('click',()=>{
@@ -109,6 +125,23 @@ const showlessBtnDivNine = document.getElementById('section_nine_showless_btn_co
    featuresSectionNine.classList.remove('displaynone');
    showlessBtnDivNine.classList.remove('displaynone')
    showMoreBtnDivNine.classList.add('displaynone')
+})
+showmoreTenthBtn.addEventListener("click",()=>{
+   featuresSectionTen.classList.remove('displaynone');
+   showlessBtnDivTen.classList.remove('displaynone')
+   showMoreBtnDivTen.classList.add('displaynone')
+})
+
+showmoreElevenBtn.addEventListener("click",()=>{
+   featuresSectionEleven.classList.remove('displaynone');
+   showlessBtnDivEleven.classList.remove('displaynone')
+   showMoreBtnDivEleven.classList.add('displaynone')
+})
+
+showMoreBtnDivTweleve.addEventListener("click",()=>{
+   featuresSectionTweleve.classList.remove('displaynone');
+   showlessBtnDivTweleve.classList.remove('displaynone')
+   showMoreBtnDivTweleve.classList.add('displaynone')
 })
 
 // click on show less button
@@ -167,4 +200,23 @@ const showlessBtnDivNine = document.getElementById('section_nine_showless_btn_co
    featuresSectionNine.classList.add('displaynone');
    showlessBtnDivNine.classList.add('displaynone')
 })
+
+showlessBtnTen.addEventListener('click',()=>{
+   showMoreBtnDivTen.classList.remove('displaynone');
+   featuresSectionTen.classList.add('displaynone');
+   showlessBtnDivTen.classList.add('displaynone');
+})
+
+showlessBtnEleven.addEventListener('click',()=>{
+   showMoreBtnDivEleven.classList.remove('displaynone')
+   featuresSectionEleven.classList.add('displaynone');
+   showlessBtnDivEleven.classList.add('displaynone');
+})
+
+showlessBtnTweleve.addEventListener('click',()=>{
+   showMoreBtnDivTweleve.classList.remove('displaynone');
+   featuresSectionTweleve.classList.add('displaynone');
+   showlessBtnDivTweleve.classList.add('displaynone');
+})
+
  

@@ -1,0 +1,126 @@
+.body{
+    width: 100%;
+    height: 100%;
+}
+.careers-main{
+    width: 100%;
+    height: 100%;
+}
+.anchor {
+    text-decoration: none;
+    color:#FCFCFC
+}
+.heading-div{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.carres-text-samll{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.62px; 
+    letter-spacing: 1px;
+
+}
+.carres-text-large{
+    color: #FCFCFC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; 
+    letter-spacing: 1px;
+}
+.carres-conatiner{
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+}
+.open-postions-cover{
+    width: 20%;
+    height: 45px;
+    position: relative;
+    text-align: center;
+    border-radius: 16px;
+    background: #302C2C;
+
+
+}
+.open-opsitions{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    color: #FCFCFC;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+
+}
+.udnerline{
+    color: white;
+}
+.career-contents{
+    width: 100%;
+    padding: 70px 0 70px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+.career-contents-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apply-content{
+    color: rgba(252, 252, 252, 0.60);
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.084px; 
+    letter-spacing: 1px;
+}
+.carees-short-desc{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.position-title{
+    color: #FD3163;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47.324px; 
+    letter-spacing: 0.5px;
+}
+.apply-btn-container{
+    height:  48px;
+    text-align: end;
+}
+.apply-btn{
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    color: #FCFCFC;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    border-radius: 16px;
+    background: #302C2C;
+}
