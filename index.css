@@ -55,6 +55,7 @@ body{
     position: fixed;
     top: 70%;
     left: 90%;
+    z-index: 2;
 
 }
 .calldiv img{
@@ -711,6 +712,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
 
 /* mediaquries */
 
